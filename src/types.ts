@@ -10,3 +10,12 @@ export interface Task extends ApiTask {
 export interface ApiTasks {
   [id: string]: ApiTask;
 }
+
+export interface ChangeStatus {
+  id: string;
+  isCompleted: boolean;
+}
+
+export interface DeleteItem {
+  id: string;
+}
