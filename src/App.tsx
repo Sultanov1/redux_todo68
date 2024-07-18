@@ -1,7 +1,12 @@
+import TaskForm from './containers/Todo/TaskForm';
+import TaskList from './containers/Todo/TaskList';
+import  './App.css';
+
 const App = () => {
     return (
         <div>
-            <div>Initial App</div>
+          <TaskForm/>
+          <TaskList/>
         </div>
     );
 };
